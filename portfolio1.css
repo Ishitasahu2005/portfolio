@@ -1,0 +1,138 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #751e0f;
+    background: #bd6e6e;
+    padding: 0 20px;
+    background-image: url(p1.avif);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  #image{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+  }
+  
+
+  nav.sec {
+    background: #0e0b0d;
+    color: #e2e3e4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
+    font-size: 24px;
+  }
+  
+  nav ul.list {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li#items {
+    margin: 0 15px;
+  }
+  
+  nav ul li#items a {
+    text-decoration: none;
+    color: #e2a2a2;
+    font-size: 16px;
+  }
+  
+  nav ul li#items a:hover {
+    text-decoration: underline;
+  }
+  
+
+  section {
+    text-align:center;
+    margin: 40px auto;
+  }
+  
+  section img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  section h1 {
+    font-size: 32px;
+    color: #ccabab;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    color: #e0c8c8;
+    margin: 10px 0;
+  }
+  
+  section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #e9b7b7;
+    background-color: #8b8f92;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover 
+  {
+    background-color: #d8dfe6;
+  }
+  a{
+    text-decoration: none;
+    color: #b8a2a2;
+  }
+
+  #project-list {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+   
+    align-items: center;
+    
+  }
+
+    #projectcard{
+      flex:1;
+      padding:20px;
+      height:200px;
+      width:200px;
+      margin:20px;
+      background-color: #f8f3f3;
+      border:2px rgb(217, 198, 235);
+
+
+    }
+    #btnlink{
+      text-decoration: none;
+    }
+    #Skills-Learnt {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    
+    #Skills-Learnt1 {
+    padding: auto;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    background-color: #f8f3f3;
+    ;
+    }
